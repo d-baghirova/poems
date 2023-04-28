@@ -194,4 +194,22 @@ header {
   text-decoration: none;
   padding: 5px 18.7px;
 }
+
+.poem {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin-left: 40%;
+  align-items: center;
+}
   
+#quote-container {
+  width:50%;
+  margin-top: 50px;
+  margin-left: 25%;
+}
+
+.single-quote {
+  border: 10px solid #ef6b68;
+  padding-left: 10%;
+}

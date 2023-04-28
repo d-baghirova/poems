@@ -3,7 +3,7 @@ const renderResponse = (res, num) => {
     // Handles if res is falsey
     if(!res){
       console.log(res.status);
-    }
+    } 
     // In case res comes back as a blank array
     if(!res.length){
       responseField.innerHTML = "<p>Try again!</p><p>There were no suggestions found!</p>";
@@ -26,7 +26,7 @@ const renderResponse = (res, num) => {
 
   
   // Renders response before it is modified
-  const renderRawResponse = (res) => {
+  const renderRawResponse = (res) => { 
     // Takes the first 10 words from res
     let trimmedResponse = res.slice(0, 10);
     // Manipulates responseField to render the unformatted response

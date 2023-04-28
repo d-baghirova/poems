@@ -7,7 +7,7 @@ const renderResponse = (res) => {
       responseField.innerHTML = `<p>Your shortened url is: </p><p> ${res.shortUrl} </p>`;
     }
   }
-  
+   
   // Manipulates responseField to render an unformatted response
   const renderRawResponse = (res) => {
     // Displays either message depending on results
